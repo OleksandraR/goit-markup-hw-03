@@ -284,19 +284,22 @@ a {
 
 .portfolio-menu {
     display: flex;
+    flex-direction: row;
+    column-gap: 24px;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;
-    overflow: hidden;
     width: calc((100% - 48px) / 3);
+    background-color: #fff;
 }
+
 
 .portfolio-box {
     padding: 32px 16px;
-    text-align: left;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-sub-title {
